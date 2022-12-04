@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.Logo {
+    height: 7.5%;
+    width: 7.5%;
+}
+
+/* header - Шапка */
+header {
+    width: 100%;
+    height: auto;
+    background: rgba(217, 217, 217, 0.5);
+    margin: auto;
+}
+
+.Logo {
+    float: left;
+    margin-top: 0;
+}
+
+.Top_menu {
+    text-decoration: none;
+    margin-left: auto;
+    list-style: none;
+    overflow: hidden;
+    margin-right: 4.5%;
+}
+
+.shapka li {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 3vw;
+    letter-spacing: 0.03vw;
+    font-family: 'Grenze', serif;
+    font-weight: bold;
+
+
+}
+
+.Top_menu a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.7vw;
+    letter-spacing: 0.03vw;
+
+}
+
+.Top_menu a:hover {
+    color: #FF3F15;
+}
+
+.shapka {
+    display: flex;
+
+}
+
+.Logo,
+.Top_menu,
+.Name {
+    vertical-align: center;
+
+}
+
+.Logo,
+.Name {
+    display: inline-block;
+
+}
+.Top_menu li {
+    display: inline-block;
+    padding-right:4vw;
+
+}
+
+.Name,
+.Top_menu {
+    margin-top: 0.97vw;
+}
+
+/* End header */
+
+/* End Screen1 */
+body {
+    height: 100%;
+    background-color: #F5F5F5;
+}
+
+.Slogan {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    Position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+.FSlog {
+    font-size: 3vw;
+    letter-spacing: 0.03vw;
+}
+
+.SSlog,
+.PSSlog {
+    font-size: 4.3vw;
+}
+
+.PSSlog {
+    color: #FF3F15;
+    text-decoration: none;
+}
+
+
+
+.Screen1 {
+
+    min-height: 100vh;
+    background-image: url(./mg/pshp.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* End Screen1 */
+/* Start Screen2 */
+.Screen2 {
+    min-height: 100vh;
+}
+
+.Chooseprog h1 {
+    margin-top: 4%;
+    text-decoration: none;
+    font-size: 3vw;
+    letter-spacing: 0.03vw;
+    font-family: 'Playfair Display', serif;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Chooseprog u {
+    text-decoration: none;
+    color: #FF3F15;
+}
+
+.Chooseprog h3 {
+    text-decoration: none;
+    font-size: 1.7vw;
+    letter-spacing: 0.03vw;
+    font-family: 'Playfair Display', serif;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Долгие тренировки */
+.Programs {
+    margin-top: 4%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.Programs h3 {
+    text-decoration: none;
+    font-size: 1.7vw;
+    letter-spacing: 0.03vw;
+    font-family: 'Playfair Display', serif;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.Programs h5 {
+    text-decoration: none;
+    font-size: 1.17vw;
+    letter-spacing: 0.03vw;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 2%;
+}
+
+.Programs button {
+    background-color: #FF3F15;
+    border: none;
+    color: black;
+    padding: 0.5% 2.5%;
+    border-style: solid;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4.16vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.17vw;
+    margin-bottom: 4%;
+}
+
+.Programs button:hover {
+    background-color: #000;
+    color: white;
+    transition: 0.7s;
+    border-color: #000;
+}
+
+.Programs button:focus {
+    outline-color: transparent;
+    color: white;
+    border-color: #000;
+    background-color: #000;
+}
+
+.Programs button:active {
+    background-color: #FF3F15;
+    color: white;
+    border-color: #000;
+    transform: translateY(0.6vh);
+}
+.Programs img{
+    height: 10vh;
+    width: auto;
+}
+
+.Reg u {
+    text-decoration: none;
+    color: #FF3F15;
+}
+
+.Reg {
+    background: url(./mg/n.png) no-repeat center;
+    background-size: 100%;
+    padding: 2.5% 0% 2.5% 0%;
+}
+
+
+.Regtext {
+    padding-top: 2%;
+    text-decoration: none;
+    font-size: 3vw;
+    letter-spacing: 0.03vw;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Citata {
+    text-decoration: none;
+    font-size: 1.17vw;
+    letter-spacing: 0.03vw;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    padding: 2%;
+}
+
+.Reg button {
+    background-color: #FF3F15;
+    border: none;
+    padding: 0.5% 1.5%;
+    color: black;
+    border-style: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.17vw;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.Reg button:hover {
+    background-color: #000;
+    color: white;
+    transition: 0.7s;
+    border-color: #000;
+}
+
+.Reg button:focus {
+    outline-color: transparent;
+    color: white;
+    border-color: #000;
+    background-color: #000;
+}
+
+.Reg button:active {
+    background-color: #FF3F15;
+    color: white;
+    border-color: #000;
+    transform: translate(-50%,0.26vw);
+}
+
+
+footer {
+    width: 100%;
+    height: auto;
+    background: rgba(217, 217, 217, 1);
+    margin: auto;
+    margin-top: 5%;
+}
+.Buttons{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 4.5%;
+    position: relative; 
+    width: 50%;
+    margin-top: 2.5%;
+    left: 20%;
+    
+}
+.Buttons img{
+    height: 2vw;
+}
+.Buttons button{
+    display: inline;
+    height: 2.2vw;
+    margin-left: 17%;
+}

@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.Logo {
+    height: 7.5%;
+    width: 7.5%;
+}
+
+/* header - Шапка */
+header {
+    width: 100%;
+    height: auto;
+    background: rgba(217, 217, 217, 0.5);
+    margin: auto;
+}
+
+.Logo {
+    float: left;
+    margin-top: 0;
+}
+
+.Top_menu {
+    text-decoration: none;
+    margin-left: auto;
+    list-style: none;
+    overflow: hidden;
+    margin-right: 4.5%;
+}
+
+.shapka li {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 3vw;
+    letter-spacing: 0.03vw;
+    font-family: 'Grenze', serif;
+    font-weight: bold;
+
+
+}
+
+.Top_menu a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.7vw;
+    letter-spacing: 0.03vw;
+
+}
+
+.Top_menu a:hover {
+    color: #FF3F15;
+}
+
+.shapka {
+    display: flex;
+
+}
+
+.Logo,
+.Top_menu,
+.Name {
+    vertical-align: center;
+
+}
+
+.Logo,
+.Name {
+    display: inline-block;
+
+}
+.Top_menu li {
+    display: inline-block;
+    padding-right:4vw;
+
+}
+
+.Name,
+.Top_menu {
+    margin-top: 0.97vw;
+}
+
+/* End header */
+
+/* Citata */
+.Info {
+    margin-top: 19vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 7%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.628vw;
+    background-color: rgba(217, 217, 217, 0.5);
+    
+}
+.Citata{
+    width: 100%;
+    Position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+/* End Citata */
+/* Buttons */
+.Buttons button {
+    background-color: #FF3F15;
+    border: none;
+    color: black;
+    padding: 0.65vw 1.628vw;
+    border-style: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.17vw;
+    margin-bottom: 2.6vw;
+    margin: 0px 0.6vw 0px 0px;
+    margin-top: 8vh;
+
+}
+
+.Buttons {
+    margin-left: 10%;
+    margin-right: 9%;
+}
+
+.Buttons button:hover {
+    background-color: #000;
+    color: white;
+    transition: 0.7s;
+    border-color: #000;
+}
+
+.Buttons button:focus {
+    outline-color: transparent;
+    color: white;
+    border-color: #000;
+    background-color: #000;
+}
+
+.Buttons button:active {
+    background-color: #FF3F15;
+    color: white;
+    border-color: #000;
+    transform: translateY(0.26vw);
+}
+
+/* End Buttons */
+/* Training */
+.Training {
+    color: #fff;
+    margin-top: 8vh;
+    margin-left: 10%;
+}
+
+.Training div {
+    margin: 0px 0px 8vh 0px;
+}
+
+.Training h1 {
+    text-decoration: none;
+    font-size: 1.628vw;
+    letter-spacing: 0.03vw;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    margin-bottom:  2.77vh;
+}
+
+.Training label {
+    text-decoration: none;
+    font-size: 1.17vw;
+    letter-spacing: 0.03vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 2.77vh;
+}
+
+input {
+    content: '';
+    display: inline-block;
+    width: 2vw;
+    height: 2vw;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 0.03vw solid rgba(204, 204, 204);
+    margin-right: 1.1vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+
+}
+
+.InfoF {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.628vw;
+    background-color: rgba(217, 217, 217, 0.5);
+}
+
+input,
+label {
+    margin-top: 1.385vh;
+    margin-bottom: 1.385vh;
+    vertical-align: middle;
+}
+
+/* End Training */
+body {
+    height: 100%;
+    background-color: rgba(204, 204, 204);
+}
+
+.Screen1 {
+    min-height: 100vh;
+    background-image: url(./mg/pshp.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.Screen2 {
+    min-height: 100vh;
+    background-image: url(./mg/backgrondT.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    height: auto;
+    background: rgba(217, 217, 217, 1);
+    margin: auto;
+    margin-top: 5%;
+}
+.Click{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 4.5%;
+    position: relative; 
+    width: 50%;
+    margin-top: 2.5%;
+    left: 20%;
+    
+}
+.Click img{
+    height: 2vw;
+}
+.Click button{
+    display: inline;
+    height: 2.2vw;
+    margin-left: 17%;
+}
+
+@media only screen and (max-width:1100px)
+{
+    .Info{
+        margin-top: 0%;
+    }
+}

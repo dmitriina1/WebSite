@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.Logo {
+    height: 7.5%;
+    width: 7.5%;
+}
+
+/* header - Шапка */
+header {
+    width: 100%;
+    height: auto;
+    background: rgba(217, 217, 217, 0.5);
+    margin: auto;
+}
+
+.Logo {
+    float: left;
+    margin-top: 0;
+}
+
+.Top_menu {
+    text-decoration: none;
+    margin-left: auto;
+    list-style: none;
+    overflow: hidden;
+    margin-right: 4.5%;
+}
+
+.shapka li {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 3vw;
+    letter-spacing: 0.03vw;
+    font-family: 'Grenze', serif;
+    font-weight: bold;
+
+
+}
+
+.Top_menu a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.7vw;
+    letter-spacing: 0.03vw;
+
+}
+
+.Top_menu a:hover {
+    color: #FF3F15;
+}
+
+.shapka {
+    display: flex;
+
+}
+
+.Logo,
+.Top_menu,
+.Name {
+    vertical-align: center;
+
+}
+
+.Logo,
+.Name {
+    display: inline-block;
+
+}
+.Top_menu li {
+    display: inline-block;
+    padding-right:4vw;
+
+}
+
+.Name,
+.Top_menu {
+    margin-top: 0.97vw;
+}
+
+/* End header */
+
+/* Citata */
+.AboutUs{
+    margin-top: 19vh;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 14%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.6vw;
+    background-color: rgba(217, 217, 217, 0.5);
+}
+.Citate{
+    width: 100%;
+}
+/* End Citata */
+
+footer {
+    width: 100%;
+    height: auto;
+    background: rgba(217, 217, 217, 1);
+    margin: auto;   
+}
+.Buttons{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 4.5%;
+    position: relative; 
+    width: 50%;
+    margin-top: 2.5%;
+    left: 20%;
+    
+}
+.Buttons img{
+    height: 2vw;
+}
+.Buttons button{
+    display: inline;
+    height: 2.2vw;
+    margin-left: 17%;
+}
+/* End Footer */
+/* End Screen1 */
+body {
+    height: 100%;
+    background-color: rgba(204,204,204);
+}
+
+.Screen1 {
+
+    min-height: 100vh;
+    background-image: url(./mg/pshp.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* End Screen1 */
+@media only screen and (max-width:1200px){
+    .AboutUs{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0%;
+    }
+    footer{
+        Position:absolute;
+    top:100%;
+    left:50%;
+    transform:translate(-50%,-100%);
+    }
+}

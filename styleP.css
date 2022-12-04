@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.Logo {
+    height: 7.5%;
+    width: 7.5%;
+}
+
+/* header - Шапка */
+header {
+    width: 100%;
+    height: auto;
+    background: rgba(217, 217, 217, 0.5);
+    margin: auto;
+}
+
+.Logo {
+    float: left;
+    margin-top: 0;
+}
+
+.Top_menu {
+    text-decoration: none;
+    margin-left: auto;
+    list-style: none;
+    overflow: hidden;
+    margin-right: 4.5%;
+}
+
+.shapka li {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 3vw;
+    letter-spacing: 0.03vw;
+    font-family: 'Grenze', serif;
+    font-weight: bold;
+
+
+}
+
+.Top_menu a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.7vw;
+    letter-spacing: 0.03vw;
+
+}
+
+.Top_menu a:hover {
+    color: #FF3F15;
+}
+
+.shapka {
+    display: flex;
+
+}
+
+.Logo,
+.Top_menu,
+.Name {
+    vertical-align: center;
+
+}
+
+.Logo,
+.Name {
+    display: inline-block;
+
+}
+.Top_menu li {
+    display: inline-block;
+    padding-right:4vw;
+
+}
+
+.Name,
+.Top_menu {
+    margin-top: 0.97vw;
+}
+
+/* End header */
+
+/* Info */
+.ProfileFoto{
+    height: 19vw;
+    width: 19vw;
+    margin-top: 5%;
+}
+.ProfileFoto,.Screen1{
+    text-align: center;
+}
+.Screen1 h1{
+    font-family: 'Playfair Display', serif;
+    color: #FF3F15;
+    font-size:  2vw;
+    font-weight: bold;
+    text-align: center;
+    margin: 7vh 0vh 0vh 0vh;
+}
+.Screen1 u{
+    color: #fff;
+}
+/* EndInfo */
+
+/* Change Info */
+.Screen2 h1{
+    font-family: 'Playfair Display', serif;
+    color: #FF3F15;
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+    margin: 10vh 0vh 10vh 0vh;
+}
+.Screen2 h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #FF3F15;
+    font-size: 2vw;
+    font-weight: 600;
+    text-align: center;
+    margin: 0vh 0vh 10vh 0vh;
+}
+.Screen2 u{
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+.Screen2 input[id="name"]{
+    border: 0.13vw solid #bdbdbd;
+    width: 12%;
+    margin-left: 3%;
+}
+.Screen2 input[id="mail"]{
+    border: 0.13vw solid #bdbdbd;
+    width: 20%;
+    margin-left: 3%;
+}
+.Screen2 .ChooseFile{
+    border: 0.13vw solid #bdbdbd;
+    background-color: rgba(204, 204, 204);
+    margin-left: 3vh;
+}
+
+.Screen2 .ChooseFile:active{
+    transform: translateY(4px);
+}
+.FileName{
+    margin-left: 3vh;
+}
+.ChangeInfo{
+    background-color: #FF3F15;
+    border: none;
+    padding: 0.325vw 2vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4.16vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2vw;
+    width: 16.45vw;
+    margin-bottom: 8%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+/* .ChangeInfo,.Screen2{
+    text-align: center;
+} */
+.ChangeInfo:hover{
+    background-color: #000;
+    color: white;
+    transition: 0.7s;
+    border-color: #000;
+}
+.ChangeInfo:focus{
+    outline-color: transparent;
+    color: white;
+    border-color: #000;
+    background-color: #000;
+}
+.ChangeInfo:active{
+    background-color: #FF3F15;
+    color: white;
+    border-color: #000;
+    transform: translate(-50%,0.26vw);
+}
+
+/* End Change Info */
+
+/* Footer*/
+.Screen1 {
+    min-height: 100vh;
+    background-image: url(./mg/pshp.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+body {
+    height: 100%;
+    background-color: rgba(226, 226, 226, 1);
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background: rgba(217, 217, 217, 1);
+    margin: auto;
+    margin-top: 5%;
+}
+.Buttons{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 4.5%;
+    position: relative; 
+    width: 50%;
+    margin-top: 2.5%;
+    left: 20%;
+    
+}
+.Buttons img{
+    height: 2vw;
+}
+.Buttons button{
+    display: inline;
+    height: 2.2vw;
+    margin-left: 17%;
+}
+.Information{
+    Position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="script.js">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styleT.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Grenze:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <title>Wade's Training</title>
+</head>
+<section class="Screen1">
+    <header>
+        <div class="shapka">
+            <img src="./mg/123.png" alt="Logo" class="Logo">
+            <li class="Name"><a href="./Main.html">Wade's Training</a></li>
+            <ul class="Top_menu">
+                <li><a href="./Profile.html">Профиль</a></li>
+                <li><a href="./Training.html">Тренировки</a></li>
+                <li><a href="./Blog.html">Блог</a></li>
+                <li><a href="./AboutUs.html">О нас</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="Citata">
+    <p class="Info">
+        В нашей системе существует шесть основных движений, которые мы используем для нагрузки всего тела, начиная от
+        мышц головы и заканчивая пальцами
+        ног! Выбор этих шести упражнений - результат многовековых традиций, проб
+        и ошибок, а также базовых знаний в области анатомии и кинезиологии.
+        Они прекрасно дополняют друг друга: мосты задействуют
+        все мышцы задней части тела, подъемы ног работают с передней частью торса,
+        отжимания тренируют «отжимающие» мышцы верхней части тела,подтягивания
+        - «тянущие», и так далее. Из этого следует, что шесть упражнений - это все, что требуется для нагрузки всего
+        тела. Дополнительное упражнение будет излишним, а если убрать одно из них
+        - это оставит пробел в ваших способностях.
+    </p>
+</div>
+</section>
+<section class="Screen2">
+
+    <body>
+        <div class="Buttons">
+            <button onclick="ChangePushUps()">Отжимания</button>
+            <button onclick="ChangeSquats()">Приседания</button>
+            <button onclick="ChangePullUps()">Подтягивания</button>
+            <button onclick="ChangePress()">Подъем ног</button>
+            <button onclick="ChangeBridge()">Мосты</button>
+            <button onclick="ChangeHeadStand()">Отжимания в стойке на руках</button>
+        </div>
+        <div class="Training">
+            <div>
+                <h1 id="1">Уровень 1: Отжимания от стены</h1>
+                <input type="checkbox" name="1.1" value="1.1"><label for="checkbox" id="1.1">Начальный уровень: 1
+                    подход по 10 повторений</label><br>
+                <input type="checkbox" name="1.2" value="1.2"><label for="checkbox" id="1.2">Продвинутый уровень: 2
+                    подхода по 25 повторений</label><br>
+                <input type="checkbox" name="1.3" value="1.3"><label for="checkbox" id="1.3">Условие перехода: 3 подхода
+                    по 50 повторений</label><br>
+            </div>
+            <div>
+                <h1 id="2">Уровень 2: Наклонные отжимания</h1>
+                <input type="checkbox" name="2.1" value="2.1"><label for="checkbox" id="2.1">Начальный уровень: 1
+                    подход по 10 повторений</label><br>
+                <input type="checkbox" name="2.2" value="2.2"><label for="checkbox" id="2.2">Продвинутый уровень: 2
+                    подхода по 20 повторений</label><br>
+                <input type="checkbox" name="2.3" value="2.3"><label for="checkbox" id="2.3">Условие перехода: 3 подхода
+                    по 40 повторений</label><br>
+            </div>
+            <div>
+                <h1 id="3">Уровень 3: Отжимания на коленях</h1>
+                <input type="checkbox" name="3.1" value="3.1"><label for="checkbox" id="3.1">Начальный уровень: 1 подход
+                    по 10 повторений</label><br>
+                <input type="checkbox" name="3.2" value="3.2"><label for="checkbox" id="3.2">Продвинутый уровень: 2
+                    подхода по 15 повторений</label><br>
+                <input type="checkbox" name="3.3" value="3.3"><label for="checkbox" id="3.3">Условие перехода: 3 подхода
+                    по 30 повторений</label><br>
+            </div>
+            <div>
+                <h1 id="4">Уровень 4: Половинные отжимания</h1>
+                <input type="checkbox" name="4.1" value="4.1"><label for="checkbox" id="4.1">Начальный уровень:
+                1 подход по 8 повторений</label><br>
+                <input type="checkbox" name="4.2" value="4.2"><label for="checkbox" id="4.2">Продвинутый
+                уровень: 2 подхода по 12 повторений</label><br>
+                <input type="checkbox" name="4.3" value="4.3"><label for="checkbox" id="4.3">Условие перехода: 2
+                подхода по 25 повторений</label><br>
+            </div>
+            <div>
+                <h1 id="5">Уровень 5: Полные отжимнания</h1>
+                <input type="checkbox" name="5.1" value="5.1"><label for="checkbox" id="5.1">Начальный уровень: 1 подход
+                    по 5 повторений</label><br>
+                <input type="checkbox" name="5.2" value="5.2"><label for="checkbox" id="5.2">Продвинутый уровень: 2
+                    подхода по 10 повторений</label><br>
+                <input type="checkbox"  name="5.3" value="5.3"><label for="checkbox" id="5.3">Условие перехода: 2 подхода
+                    по 20 повторений</label><br>
+            </div>
+            <div>
+                <h1 id="6">Уровень 6: Плотные отжимнания</h1>
+                <input type="checkbox" name="6.1" value="6.1"><label for="checkbox" id="6.1">Начальный уровень: 1 подход
+                    по 5 повторений</label><br>
+                <input type="checkbox" name="6.2" value="6.2"><label for="checkbox" id="6.2">Продвинутый уровень: 2
+                    подхода по 10 повторений</label><br>
+                <input type="checkbox" name="6.3" value="6.3"><label for="checkbox" id="6.3">Условие перехода: 2 подхода
+                    по 20 повторений</label><br>
+            </div>
+            <div>
+                <h1 id="7">Уровень 7: Неравномерные отжимания</h1>
+                <input type="checkbox" name="7.1" value="7.1"><label for="checkbox" id="7.1">Начальный уровень: 1 подход
+                    по 5 повторений (на каждую сторону)</label><br>
+                <input type="checkbox" name="7.2" value="7.2"><label for="checkbox" id="7.2">Продвинутый уровень: 2
+                    подхода по 10 повторений (на каждую сторону)</label><br>
+                <input type="checkbox" name="7.3" value="7.3"><label for="checkbox" id="7.3">Условие перехода: 2 подхода
+                    по 20 повторений (на каждую сторону)</label><br>
+            </div>
+            <div>
+                <h1 id="8">Уровень 8: Половинные отжимания на одной руке</h1>
+                <input type="checkbox" name="8.1" value="8.1"><label for="checkbox" id="8.1">Начальный уровень: 1 подход
+                    по 5 повторений (на каждую сторону)</label><br>
+                <input type="checkbox" name="8.2" value="8.2"><label for="checkbox" id="8.2">Продвинутый уровень: 2
+                    подхода по 10 повторений (на каждую сторону)</label><br>
+                <input type="checkbox" name="8.3" value="8.3"><label for="checkbox" id="8.3">Условие перехода: 2 подхода
+                    по 20 повторений (на каждую сторону)</label><br>
+            </div>
+            <div>
+                <h1 id="9">Уровень 9: Рычажные отжимания</h1>
+                <input type="checkbox" name="9.1" value="9.1"><label for="checkbox" id="9.1">Начальный уровень: 1 подход
+                    по 5 повторений (на каждую сторону)</label><br>
+                <input type="checkbox" name="9.2" value="9.2"><label for="checkbox" id="9.2">Продвинутый уровень: 2
+                    подхода по 10 повторений (на каждую сторону)</label><br>
+                <input type="checkbox" name="9.3" value="9.3"><label for="checkbox" id="9.3">Условие перехода: 2 подхода
+                    по 20 повторений (на каждую сторону)</label><br>
+            </div>
+            <div>
+                <h1 id="10">Уровень мастера: Отжимания на одной руке</h1>
+                <input type="checkbox" name="10.1" value="10.1"><label for="checkbox" id="10.1">Начальный уровень: 1
+                    подход по 5 повторений (на каждую сторону)</label><br>
+                <input type="checkbox" name="10.2" value="10.2"><label for="checkbox" id="10.2">Продвинутый уровень: 2
+                    подхода по 10 повторений (на каждую сторону)</label><br>
+                <input type="checkbox" name="10.3" value="10.3"><label for="checkbox" id="10.3">Условие перехода: 1
+                    подхода по 100 повторений (на каждую сторону)</label><br>
+            </div>
+        </div>
+        <p class="InfoF">
+            Начните тренировки с Уровня 1 каждого движения. Не поддавайтесь желанию перепрыгнуть на шаг 3, 4, 5 или даже
+            6. Начните с самых простых упражнений, и постепенно поднимите интенсивность. Дайте
+            себе по крайней мере четыре недели до перехода к жестким тренировкам, и, возможно, два месяца для полной
+            адаптации.<br>
+            Многие думают, что это слишком медленно. Они уверены, что начальные
+            упражнения, слишком просты. Но, старт с легких упражнений принесет больше
+            пользы в долгосрочной перспективе. Позволит укрепить суставы, научит координации,
+            балансу. Заложит хорошую основу для силы и создаст мотивацию для
+            более трудных упражнений.<br>
+            Получение настоящей силы с помощью гимнастики не сиюминутная прихоть.
+            Это то чем вы сможете пользоваться всю свою жизнь. Несколько недель на освоение основных, простых
+            упражнений,в таком контексте, уже не кажется слишком долгим.
+        </p>
+        <footer>
+            <div class="shapka">
+                <img src="./mg/123.png" alt="Logo"  class="Logo">
+                <li class="Name"><a href="./Main.html">Wade's Training</a></li>
+                <ul class="Click">
+                    <button class="nets"><img src="./mg/iconVK.png"  alt=""></button>
+                    <button class="nets"><img src="./mg/iconYouTube.png"  alt=""></button>
+                    <button class="nets"><img src="./mg/iconFB.png"  alt=""></button>
+                    <button class="nets"><img src="./mg/Vector.png"  alt=""></button>
+                </ul>
+            </div>
+        </footer>
+        
+    </body>
+    <script src="./script.js">
+        
+    </script>
+</section>
+
+</html>
